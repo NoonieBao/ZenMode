@@ -1,5 +1,5 @@
 # NightGuardian
-An Xposed module that would halt applications when you ought to be sleeping 😪
+An Xposed module that would halt APPs in your sleeping time 😪
 
 # Usage
 
