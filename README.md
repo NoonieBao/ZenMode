@@ -3,7 +3,7 @@ An Xposed module that would halt applications when you ought to be sleeping 😪
 
 # Usage
 
-Warning: Make sure you are able to recover your device when something unexpected take place!
+Warning: Make sure you are able to recover your device when anything unexpected take place!
 
 1. Based on Lsposed, and alternative enhance with Magisk
 2. Install the `release.apk` directly
