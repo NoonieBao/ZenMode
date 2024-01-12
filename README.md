@@ -29,3 +29,8 @@ NightGuard is based on Lsposed, and an alternative enhanced with Magisk. So ther
    1. You can install the magisk module in release list, which help install NightGuard as system app. (Un-uninstallable)
    2. Remove Masigk manager, which dose not lose your root and could re-install anytime. (Prevent Magisk module be disabled)
    3. Check any File-Manager that has the root access. (Prevent remove Magisk module in File-Manager)
+  
+
+
+# Note
+The hook code will release when there is no conspicuous bug, but not now.
