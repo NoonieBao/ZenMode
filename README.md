@@ -5,6 +5,8 @@ An Xposed module that would halt APPs in your sleeping time 😪
 # Warning
 
 Make sure you are able to recover device when anything unexpected take place!
+Make sure you are able to recover device when anything unexpected take place!
+Make sure you are able to recover device when anything unexpected take place!
 
 # Basical Usage
 
