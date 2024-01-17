@@ -2,7 +2,7 @@
 
 In our 24/7 society, cell phones, computers and other electronic devices play a large part in how we work, play and keep in touch. According to the National Sleep Foundation, about 90 percent of Americans regularly use an electronic device in the hour before they go to bed. But all that screen time may be harming our sleep.
 
-So NightGuard, An Xposed module that would halt APPs in your sleeping time, comes. 😪
+So **NightGuard**, An Xposed module that would halt APPs in your sleeping time, comes. 😪
 
 # Warning
 
