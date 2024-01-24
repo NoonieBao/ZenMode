@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">拒绝奥也</string>
+
+    <string-array name="days">
+        <item>星期一</item> <!-- Monday in Chinese -->
+        <item>星期二</item> <!-- Tuesday in Chinese -->
+        <item>星期三</item> <!-- Wednesday in Chinese -->
+        <item>星期四</item> <!-- Thursday in Chinese -->
+        <item>星期五</item> <!-- Friday in Chinese -->
+        <item>星期六</item> <!-- Saturday in Chinese -->
+        <item>星期天</item> <!-- Sunday in Chinese -->
+        <item>每一天</item> <!-- Example value in English -->
+        <!-- Add other values in English or other languages... -->
+    </string-array>
+
+</resources>

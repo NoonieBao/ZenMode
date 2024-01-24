@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_adder"
+        android:title="@string/nav_button_add"
+        android:icon="@drawable/clock_time_four_outline" />
+    <item
+        android:id="@+id/navigation_home"
+        android:title="@string/nav_button_home"
+        android:icon="@drawable/ic_outline_home_24" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="@string/nav_button_setting"
+        android:icon="@drawable/ic_outline_settings_24" />
+
+</menu>

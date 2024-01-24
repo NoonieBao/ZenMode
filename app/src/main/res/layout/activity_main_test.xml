@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/sendbroad"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="打开lsp管理器" />
+
+        <Button
+            android:id="@+id/gotoRoot"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/sendbroad"
+            android:text="转移到root" />
+
+        <Button
+            android:id="@+id/checktime"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/gotoRoot"
+            android:text="Check time" />
+
+
+        <Button
+            android:id="@+id/saveSetting"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/checktime"
+            android:text="Storage" />
+
+
+        <Button
+            android:id="@+id/readSetting"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/saveSetting"
+            android:text="Read" />
+
+        <Button
+            android:id="@+id/readParam"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/readSetting"
+            android:text="Q" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_navigation_menu" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NightGuard</string>
+    <string name="select_start_ime" translatable="false">Select Start Time</string>
+    <string name="select_end_ime" translatable="false">Select End Time</string>
+    <string name="select_hour_of_day" translatable="false">Select hour of day</string>
+    <string name="open_lsp_manager" translatable="false">Open Lsp Manager</string>
+    <string name="check_time" translatable="false">Check time</string>
+    <string name="nav_button_add" translatable="false">Reg</string>
+    <string name="nav_button_home" translatable="false">Home</string>
+    <string name="nav_button_setting" translatable="false">Setting</string>
+
+
+    <string name="select_day_title"  translatable="false">Select the time scope of effect.</string>
+
+    <string-array name="days">
+        <item>Mon</item> <!-- Monday abbreviation in English -->
+        <item>Tue</item> <!-- Tuesday abbreviation in English -->
+        <item>Wed</item> <!-- Wednesday abbreviation in English -->
+        <item>Thu</item> <!-- Thursday abbreviation in English -->
+        <item>Fri</item> <!-- Friday abbreviation in English -->
+        <item>Sat</item> <!-- Saturday abbreviation in English -->
+        <item>Sun</item> <!-- Sunday abbreviation in English -->
+        <item>Every day</item>
+    </string-array>
+
+</resources>

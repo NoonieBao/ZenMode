@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    <style name="Base.Theme.ForceSleep" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Theme.ForceSleep" parent="Base.Theme.ForceSleep" />-->
+
+
+    <style name="Theme.ForceSleep" parent="Theme.Material3.DayNight.NoActionBar">
+
+<!--        <item name="colorPrimary">#aabbff</item>-->
+<!--        <item name="colorPrimaryDark">#aabbff</item>&lt;!&ndash;        notification bar&ndash;&gt;-->
+<!--        <item name="colorAccent">#FF4081</item>-->
+
+    </style>
+
+</resources>
