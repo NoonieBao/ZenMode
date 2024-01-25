@@ -37,6 +37,3 @@ NightGuard is based on Lsposed, and an alternative enhanced with Magisk. So ther
    3. Check any File-Manager that has the root access. (Prevent remove Magisk module in File-Manager)
   
 
-
-# Note
-The hook code will release when there is no conspicuous bug, but not now.
