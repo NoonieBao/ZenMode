@@ -20,7 +20,7 @@ jobs:
           ref: main
       - name: Print Current Directory
         run: |
-          cd insomnia-web
+          cd web
           tree -L 1
           npm install
           npm run build
@@ -31,4 +31,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: github-pages # 部署后提交到那个分支
-          folder: insomnia-web/dist # 这里填打包好的目录名称
+          folder: web/dist # 这里填打包好的目录名称
