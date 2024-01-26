@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="xposedScope">
+
         <item>com.tencent.mobileqq</item>
         <item>com.tencent.mm</item>
-<!--        <item>com.android.settings</item>-->
         <item>com.miui.packageinstaller</item>
         <item>com.baidu.tieba</item>
         <item>org.adaway</item>

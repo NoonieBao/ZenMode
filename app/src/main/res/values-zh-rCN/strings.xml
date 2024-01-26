@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">拒绝奥也</string>
+    <string name="app_name">拒绝熬夜</string>
 
     <string-array name="days">
         <item>星期一</item> <!-- Monday in Chinese -->
@@ -13,5 +13,12 @@
         <item>每一天</item> <!-- Example value in English -->
         <!-- Add other values in English or other languages... -->
     </string-array>
+    <string name="select_start_ime">选择开始时间</string>
+    <string name="select_end_ime">选择结束时间</string>
+    <string name="open_lsp_manager">打开Lsp管理器</string>
+    <string name="nav_button_add">规则</string>
+    <string name="nav_button_home">主页</string>
+    <string name="nav_button_setting">设置</string>
+    <string name="select_day_title">选择生效日</string>
 
 </resources>

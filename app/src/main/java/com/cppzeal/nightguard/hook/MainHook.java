@@ -42,7 +42,6 @@ public class MainHook implements IXposedHookLoadPackage {
 
                 timeParam=this.getList();
                 if(timeParam==null){
-                    XpLog.log("Time Param", "511");
 
                     ContentResolver contentResolver = context.getContentResolver(); // 或者使用另一个上下文来获取 ContentResolver
                     Uri uri = Uri.parse(ParamProvider.ParamProviderUrl);
@@ -72,9 +71,11 @@ public class MainHook implements IXposedHookLoadPackage {
                 Toast.makeText(context, "Sleep zzz...", Toast.LENGTH_SHORT).show();
 
                 XpLog.log("Time check", "Locked");
+
                 Intent intent = new Intent(Intent.ACTION_MAIN);
                 intent.addCategory(Intent.CATEGORY_HOME);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
                 context.startActivity(intent);
                 System.exit(0);
             }
