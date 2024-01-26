@@ -24,16 +24,16 @@ Make sure you are able to recover device when anything unexpected take place!
 NightGuard is based on Lsposed, and an alternative enhanced with Magisk. So there 2 enhanced way for user.
 
 
-1. Strill install directly
+1. Still install directly
 
    1. Disable Lsp continuing notification and remove the Lsp manager shortcut.
-   2. Check the `app-installer` of you system in Lsp manager. (When new xposed app installed, a Notification will be sent by Lsp)
-   3. Check the `tell-dial` app of you system in Lsp manager, which is different from the `incall-app`. You are able to handle in call but couldont dial if you check. (Some special code can invoke the Lsp manager)
+   2. Check the **app-installer** of you system in Lsp manager. (When new xposed app installed, a Notification will be sent by Lsp manager)
+   3. Check the **tell-dial** of you system in Lsp manager, which is different from the **incall-app**. You are able to handle in call but could not dial if you check. (Some special code can invoke the Lsp manager)
    4. Check any File-Manager that has the root access. (Prevent remove NightGuard in File-Manager)
 2. Use magisk to install
 
    1. You can install the magisk module in release list, which help install NightGuard as system app. (Un-uninstallable)
-   2. Remove Masigk manager, which dose not lose your root and could re-install anytime. (Prevent Magisk module be disabled)
+   2. Remove Magisk manager, which dose not lose your root and could be reinstalled anytime. (Prevent Magisk module be disabled)
    3. Check any File-Manager that has the root access. (Prevent remove Magisk module in File-Manager)
   
 
