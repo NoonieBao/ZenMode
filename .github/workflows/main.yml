@@ -1,32 +1,23 @@
 name: CI Github Pages
 on:
-  #监听push操作
-  push:
+  push: #监听push操作
     branches:
       - main # 这里只配置了main分支，所以只有推送main分支才会触发以下任务
 permissions:
   contents: write
 jobs:
-  # 任务ID
-  build-and-deploy:
-    # 运行环境
-    runs-on: ubuntu-latest
-    # 步骤
-    steps:
-      # 官方action，将代码拉取到虚拟机
-      - name: Checkout  ️ 
+  build-and-deploy: # 任务ID
+    runs-on: ubuntu-latest # 运行环境
+    steps: # 步骤
+      - name: Checkout # 官方action，将代码拉取到虚拟机
         uses: actions/checkout@v3
         with:
           ref: main
-      - name: Print Current Directory
+      - name: Npm
         run: |
           cd web
-          tree -L 1
           npm install
           npm run build
-          tree -L 1
-
-
       - name: Deploy   # 部署
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
