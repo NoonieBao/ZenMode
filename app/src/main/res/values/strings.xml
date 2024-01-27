@@ -3,10 +3,12 @@
     <string name="select_start_ime" >Select Start Time</string>
     <string name="select_end_ime" >Select End Time</string>
     <string name="open_lsp_manager" >Open Lsp Manager</string>
-    <string name="check_time" translatable="false">Check time</string>
+    <string name="check_time">Check is sleep time</string>
     <string name="nav_button_add" >Reg</string>
     <string name="nav_button_home" >Home</string>
     <string name="nav_button_setting" >Setting</string>
+    <string name="was_actived_in_lsp" >Checked in Lsp</string>
+    <string name="is_sleep_time" >Is sleep time</string>
 
 
     <string name="select_day_title"  >Select the time scope of effect.</string>

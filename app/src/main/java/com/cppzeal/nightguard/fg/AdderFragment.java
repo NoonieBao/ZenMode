@@ -126,7 +126,7 @@ public class AdderFragment extends Fragment {
                         hour,
                         minute,
                         true,
-                        getString(R.string.select_start_ime)
+                        getString(R.string.select_end_ime)
                 );
                 CustomTimePickerDialog startTime = new CustomTimePickerDialog(
                         context,

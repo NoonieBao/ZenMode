@@ -35,8 +35,10 @@ public class HomeFragment extends Fragment {
                 .map(t->t.toString1(stringArray))
                 .collect(Collectors.joining("\n"));
         boolean locked = TimeSpanContainer.isLocked(list);
-        result = String.join("\n",result, Boolean.toString(locked));
-        result = String.join("\n",result, ActiveTip.isActive().toString());
+
+        result = String.join("\n",result,context.getResources().getString(R.string.is_sleep_time),  Boolean.toString(locked));
+
+        result = String.join("\n",result,context.getResources().getString(R.string.was_actived_in_lsp), ActiveTip.isActive().toString());
         viewById.setText(result);
         return view;
     }
