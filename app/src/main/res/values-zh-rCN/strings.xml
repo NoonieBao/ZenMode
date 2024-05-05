@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">拒绝熬夜</string>
+    <string name="app_name">禅定模式</string>
 
     <string-array name="days">
         <item>星期一</item> <!-- Monday in Chinese -->
@@ -11,17 +11,19 @@
         <item>星期六</item> <!-- Saturday in Chinese -->
         <item>星期天</item> <!-- Sunday in Chinese -->
         <item>每一天</item> <!-- Example value in English -->
-        <!-- Add other values in English or other languages... -->
     </string-array>
     <string name="select_start_ime">选择开始时间</string>
     <string name="select_end_ime">选择结束时间</string>
     <string name="open_lsp_manager">打开Lsp管理器</string>
-    <string name="check_time">当前是否休息时间</string>
+    <string name="check_time">当前是否禅定时间</string>
     <string name="nav_button_add">规则</string>
     <string name="nav_button_home">主页</string>
     <string name="nav_button_setting">设置</string>
     <string name="select_day_title">选择生效日</string>
-    <string name="was_actived_in_lsp">Lsp是否勾选</string>
-    <string name="is_sleep_time">是否休息时间</string>
+    <string name="was_actived_in_lsp">"Lsp是否勾选: "</string>
+    <string name="is_sleep_time">"是否禅定时间: "</string>
+    <string name="install_magisk_module">安装Magisk模块防卸载</string>
+    <string name="xposedDesc">远离手机</string>
+    <string name="magsikZipDone">完成！请从Magisk手动刷入</string>
 
 </resources>

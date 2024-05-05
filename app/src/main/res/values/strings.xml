@@ -1,17 +1,18 @@
 <resources>
-    <string name="app_name">NightGuard</string>
+    <string name="app_name">ZenMode</string>
     <string name="select_start_ime" >Select Start Time</string>
     <string name="select_end_ime" >Select End Time</string>
     <string name="open_lsp_manager" >Open Lsp Manager</string>
-    <string name="check_time">Check is sleep time</string>
+    <string name="check_time">Check is now Zen time</string>
+    <string name="install_magisk_module">Install Magisk Module to prevent uninstallation</string>
     <string name="nav_button_add" >Reg</string>
     <string name="nav_button_home" >Home</string>
     <string name="nav_button_setting" >Setting</string>
-    <string name="was_actived_in_lsp" >Checked in Lsp</string>
-    <string name="is_sleep_time" >Is sleep time</string>
+    <string name="was_actived_in_lsp" >"Checked in Lsp: "</string>
+    <string name="is_sleep_time" >"Is Zen time now: "</string>
 
 
-    <string name="select_day_title"  >Select the time scope of effect.</string>
+    <string name="select_day_title"  >Select the time scope of effect</string>
 
     <string-array name="days">
         <item>Mon</item> <!-- Monday abbreviation in English -->
@@ -23,5 +24,7 @@
         <item>Sun</item> <!-- Sunday abbreviation in English -->
         <item>Every day</item>
     </string-array>
+    <string name="xposedDesc">Stay away from phone when Zen Time</string>
+    <string name="magsikZipDone">Done. Install the zip in Magisk munually.</string>
 
 </resources>

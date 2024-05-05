@@ -31,14 +31,19 @@
             android:text="@string/check_time" />
 
 
-
-
         <Button
-            android:id="@+id/test"
+            android:id="@+id/install_to_magisk"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:layout_below="@id/checkTime"
-            android:text="Test" />
+            android:text="@string/install_magisk_module" />
+
+<!--        <Button-->
+<!--            android:id="@+id/test"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="90dp"-->
+<!--            android:layout_below="@id/install_to_magisk"-->
+<!--            android:text="Test" />-->
 
 
 

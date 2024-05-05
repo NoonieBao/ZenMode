@@ -2,11 +2,11 @@
 <resources>
     <array name="xposedScope">
 
-        <item>com.tencent.mobileqq</item>
-        <item>com.tencent.mm</item>
+<!--        <item>com.tencent.mobileqq</item>-->
+<!--        <item>com.tencent.mm</item>-->
         <item>com.miui.packageinstaller</item>
         <item>com.baidu.tieba</item>
-        <item>org.adaway</item>
+        <!-- <item>org.adaway</item> -->
 
 
     </array>
