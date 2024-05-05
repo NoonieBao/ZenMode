@@ -1,39 +1,19 @@
-# NightGuard
-
-In our 24/7 society, cell phones, computers and other electronic devices play a large part in how we work, play and keep in touch. According to the National Sleep Foundation, about 90 percent of Americans regularly use an electronic device in the hour before they go to bed. But all that screen time may be harming our sleep [(Source: Sutter Health)](https://www.sutterhealth.org/health/sleep/screens-and-your-sleep-the-impact-of-nighttime-use).
-
-So **NightGuard**, An Xposed module that would halt APPs in your sleeping time, comes. 😪
-
-# Warning
-
-Make sure you are able to recover device when anything unexpected take place!
-
-Make sure you are able to recover device when anything unexpected take place!
-
-Make sure you are able to recover device when anything unexpected take place!
-
-# Basical Usage
-
-1. Install the `release.apk` directly
-2. Activate NightGuard, and check the target apps in Lsp manager
-3. Adding time-spans in NightGuard to set the sleep time
+<div align="center">
 
 
-## Enhance：
+<h1>ZenMode</h1>
+<h2>规定时间内禁止打开指定App</h2>
 
-NightGuard is based on Lsposed, and an alternative enhanced with Magisk. So there 2 enhanced way for user.
+</div>
+<div align="center">
 
+  [![LSP%20Repo](https://img.shields.io/github/downloads/Xposed-Modules-Repo/icu.insomnia.zen/total?label=LSP%20Repo&labelColor=F48FB1)](https://github.com/Xposed-Modules-Repo/icu.insomnia.zen/releases)[![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/icu.insomnia.zen)](https://github.com/Xposed-Modules-Repo/icu.insomnia.zen/releases/latest)
+</div>
 
-1. Still install directly
+**# Todo**
 
-   1. Disable Lsp continuing notification and remove the Lsp manager shortcut.
-   2. Check the **app-installer** of you system in Lsp manager. (When new xposed app installed, a Notification will be sent by Lsp manager)
-   3. Check the **tell-dial** of you system in Lsp manager, which is different from the **incall-app**. You are able to handle in call but could not dial if you check. (Some special code can invoke the Lsp manager)
-   4. Check any File-Manager that has the root access. (Prevent remove NightGuard in File-Manager)
-2. Use magisk to install
+1. 使用了ContentProvider保存配置, 普通安装情况下, 某些设备需要允许自启动方可获取到配置信息. 
+   - 目前可以通过安装为更高级别的系统应用解决
+   - 之后可能可以用StorePrefs解决
 
-   1. You can install the magisk module in release list, which help install NightGuard as system app. (Un-uninstallable)
-   2. Remove Magisk manager, which dose not lose your root and could be reinstalled anytime. (Prevent Magisk module be disabled)
-   3. Check any File-Manager that has the root access. (Prevent remove Magisk module in File-Manager)
-  
-
+2. 日志输出较为混乱
