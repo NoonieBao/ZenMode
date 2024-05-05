@@ -17,7 +17,7 @@ import java.util.Map;
 
 public class ParamProvider extends ContentProvider {
 
-    public static final String ParamProviderUrl = "content://com.cppzeal.forcesleep";
+    public static final String ParamProviderUrl = "content://icu.insomnia.zen";
 
     @Override
     public boolean onCreate() {
