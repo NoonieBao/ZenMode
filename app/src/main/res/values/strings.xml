@@ -4,7 +4,7 @@
     <string name="select_end_ime" >Select End Time</string>
     <string name="open_lsp_manager" >Open Lsp Manager</string>
     <string name="check_time">Check is now Zen time</string>
-    <string name="install_magisk_module">Install Magisk Module to prevent uninstallation</string>
+    <string name="install_magisk_module">Install Magisk Module for auto_start and preventing uninstallation(recommand)</string>
     <string name="nav_button_add" >Reg</string>
     <string name="nav_button_home" >Home</string>
     <string name="nav_button_setting" >Setting</string>
@@ -23,8 +23,10 @@
         <item>Sat</item> <!-- Saturday abbreviation in English -->
         <item>Sun</item> <!-- Sunday abbreviation in English -->
         <item>Every day</item>
+        <item>One time</item>
     </string-array>
     <string name="xposedDesc">Stay away from phone when Zen Time</string>
-    <string name="magsikZipDone">Done. Install the zip in Magisk munually.</string>
+    <string name="magsikZipDone">Package prepared. Install the zip in Magisk munually.</string>
+    <string name="oneTimeZen">OneTime</string>
 
 </resources>

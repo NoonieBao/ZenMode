@@ -11,6 +11,7 @@
         <item>星期六</item> <!-- Saturday in Chinese -->
         <item>星期天</item> <!-- Sunday in Chinese -->
         <item>每一天</item> <!-- Example value in English -->
+        <item>一次性</item> <!-- Example value in English -->
     </string-array>
     <string name="select_start_ime">选择开始时间</string>
     <string name="select_end_ime">选择结束时间</string>
@@ -22,8 +23,9 @@
     <string name="select_day_title">选择生效日</string>
     <string name="was_actived_in_lsp">"Lsp是否勾选: "</string>
     <string name="is_sleep_time">"是否禅定时间: "</string>
-    <string name="install_magisk_module">安装Magisk模块防卸载</string>
+    <string name="install_magisk_module">安装Magisk模块以允许自启动和防卸载(推荐)</string>
     <string name="xposedDesc">远离手机</string>
-    <string name="magsikZipDone">完成！请从Magisk手动刷入</string>
+    <string name="magsikZipDone">打包完成！请从Magisk手动刷入</string>
+    <string name="oneTimeZen">一次性禅定</string>
 
 </resources>

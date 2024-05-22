@@ -15,10 +15,10 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.cppzeal.nightguard"
+        applicationId = "icu.insomnia.zen"
         minSdk = 24
         targetSdk = 34
-        versionCode = 16
+        versionCode = 3
         versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

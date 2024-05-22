@@ -39,7 +39,7 @@ public class TimeSpanContainer {
         int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
         Log.i("TAG", "isLocked?: " + hour + ' ' + minute + " " + dayOfWeek);
         for (Timespan timespan : list) {
-            if (timespan.isMerged(1, hour, minute)) {
+            if (timespan.isMerged(dayOfWeek, hour, minute)) {
                 Log.i("TAG", "isLocked: " + hour + ' ' + minute + " " + dayOfWeek);
                 return true;
             }
@@ -64,7 +64,6 @@ public class TimeSpanContainer {
         }
         return null;
     }
-
 
     public static List<Timespan> getListFromCache(Context context) {
 
