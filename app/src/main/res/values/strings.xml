@@ -15,13 +15,13 @@
     <string name="select_day_title"  >Select the time scope of effect</string>
 
     <string-array name="days">
+        <item>Sun</item> <!-- Sunday abbreviation in English -->
         <item>Mon</item> <!-- Monday abbreviation in English -->
         <item>Tue</item> <!-- Tuesday abbreviation in English -->
         <item>Wed</item> <!-- Wednesday abbreviation in English -->
         <item>Thu</item> <!-- Thursday abbreviation in English -->
         <item>Fri</item> <!-- Friday abbreviation in English -->
         <item>Sat</item> <!-- Saturday abbreviation in English -->
-        <item>Sun</item> <!-- Sunday abbreviation in English -->
         <item>Every day</item>
         <item>One time</item>
     </string-array>

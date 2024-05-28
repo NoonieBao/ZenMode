@@ -3,13 +3,13 @@
     <string name="app_name">禅定模式</string>
 
     <string-array name="days">
+        <item>星期天</item> <!-- Sunday in Chinese -->
         <item>星期一</item> <!-- Monday in Chinese -->
         <item>星期二</item> <!-- Tuesday in Chinese -->
         <item>星期三</item> <!-- Wednesday in Chinese -->
         <item>星期四</item> <!-- Thursday in Chinese -->
         <item>星期五</item> <!-- Friday in Chinese -->
         <item>星期六</item> <!-- Saturday in Chinese -->
-        <item>星期天</item> <!-- Sunday in Chinese -->
         <item>每一天</item> <!-- Example value in English -->
         <item>一次性</item> <!-- Example value in English -->
     </string-array>
